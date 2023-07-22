@@ -1,18 +1,10 @@
 
-variable "aws_access_key" {
+variable "access_key" {
   type        = string
   description = "AWS Access Key"
 }
 
-variable "aws_secret_key" {
+variable "secret_key" {
   type        = string
   description = "AWS Secret Key"
-}
-
-variable "argocd_username" {
-  type        = string
-}
-
-variable "argocd_password" {
-  type        = string
 }
