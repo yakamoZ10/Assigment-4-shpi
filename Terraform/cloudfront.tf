@@ -1,4 +1,4 @@
-resource "argocd_application" "web_client" {
+resource "argocd_application" "web_client2" {
   metadata {
     name = "ardin-assignment-4-api"
     #labels = []
